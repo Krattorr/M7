@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/correcta"
+        android:layout_width="409dp"
+        android:layout_height="145dp"
+        android:background="#03A9F4"
+        android:text="Steve Jobs"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/botton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botton2"
+        android:layout_width="409dp"
+        android:layout_height="145dp"
+        android:background="#03A9F4"
+        android:text="Bill Moggridge"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/botton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correcta" />
+
+    <Button
+        android:id="@+id/botton3"
+        android:layout_width="409dp"
+        android:layout_height="145dp"
+        android:background="#03A9F4"
+        android:text="Alan Kay"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botton2" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="409dp"
+        android:layout_height="145dp"
+        android:background="#03A9F4"
+        android:text="¿Quien creo el primer Portatil?"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botton3" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="409dp"
+        android:layout_height="145dp"
+        android:background="#03A9F4"
+        android:text="Finalizar"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

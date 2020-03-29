@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/literatura"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:foreground="@drawable/arte" />
+
+    <Button
+        android:id="@+id/dibujo"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:foreground="@drawable/dibujo" />
+
+    <Button
+        android:id="@+id/tecnologia"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:foreground="@drawable/tecnologia" />
+
+    <Button
+        android:id="@+id/deporte"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:background="#03A9F4"
+        android:foreground="@drawable/deportiva" />
+
+    <TextView
+        android:id="@+id/seleccionar"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:text="¿ Que clase de pregunta quieres responder ?"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+</LinearLayout>
