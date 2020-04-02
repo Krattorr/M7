@@ -4,6 +4,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:text="¿En que museo está la Mona Lisa?"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+        android:textSize="30sp" />
+
+
     <Button
         android:id="@+id/respuesta1correcta"
         android:layout_width="match_parent"
@@ -11,6 +25,7 @@
         android:layout_weight="1"
         android:background="#03A9F4"
         android:text="Louvre"
+        android:textStyle="italic"
         android:textSize="30sp" />
 
     <Button
@@ -19,6 +34,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="#03A9F4"
+        android:textStyle="italic"
         android:text="Mueseo del Prado"
         android:textSize="30sp" />
 
@@ -28,18 +44,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="#03A9F4"
+        android:textStyle="italic"
         android:text="British Museum"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/pregunta"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#03A9F4"
-        android:text="¿En que museo está la Mona Lisa?"
-        android:gravity="center"
-        android:textColor="#FFFFFF"
         android:textSize="30sp" />
 
     <Button

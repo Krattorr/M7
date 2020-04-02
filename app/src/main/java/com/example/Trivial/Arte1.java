@@ -1,49 +1,46 @@
-package com.example.primeraaplicacion;
+package com.example.Trivial;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Tecnologia1 extends AppCompatActivity {
+public class Arte1 extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tecnologia1);
-        Button CharlesBabbage = findViewById(R.id.bottoncorrecto);
-        Button BillGates = findViewById(R.id.botton2);
-        Button SteveJobs = findViewById(R.id.botton3);
-        TextView pregunta = findViewById(R.id.textView);
+        setContentView(R.layout.arte1);
+        Button dosmil = findViewById(R.id.respuesta1correcta);
+        Button dosmiluno = findViewById(R.id.respuesta2);
+        Button dosmilvitidos = findViewById(R.id.respuesta3);
+        TextView pregunta = findViewById(R.id.pregunta);
         Button siguiente = findViewById(R.id.next);
         siguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Tecnologia2.class);
+                Intent i = new Intent(getApplicationContext(), Arte2.class);
                 startActivity(i);
             }
         });
-
-        CharlesBabbage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Juego.acierto ++;
-                System.out.println (Juego.acierto);
-            }
-        });
-        BillGates.setOnClickListener(new View.OnClickListener() {
+        dosmil.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Juego.acierto ++;
+            System.out.println (Juego.acierto);
+        }
+    });
+        dosmiluno.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Juego.fallido ++;
                 System.out.println (Juego.fallido);
             }
         });
-        SteveJobs.setOnClickListener(new View.OnClickListener() {
+        dosmilvitidos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Juego.fallido ++;
@@ -52,3 +49,4 @@ public class Tecnologia1 extends AppCompatActivity {
         });
     }
 }
+

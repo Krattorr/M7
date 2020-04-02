@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.primeraaplicacion">
+    package="com.example.Trivial">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+        <activity android:name="com.example.Trivial.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Juego"/>
-        <activity android:name=".Deportes1"/>
-        <activity android:name=".Deportes2"/>
-        <activity android:name=".Arte1"/>
-        <activity android:name=".Arte2"/>
-        <activity android:name=".Ayuda"/>
-        <activity android:name=".Añadirpregunta"/>
-        <activity android:name=".Estadisticas"/>
-        <activity android:name=".Literatura"/>
-        <activity android:name=".Literatura2"/>
-        <activity android:name=".Tecnologia1"/>
-        <activity android:name=".Tecnologia2"/>
+        <activity android:name="com.example.Trivial.Juego"/>
+        <activity android:name="com.example.Trivial.Deportes1"/>
+        <activity android:name="com.example.Trivial.Deportes2"/>
+        <activity android:name="com.example.Trivial.Arte1"/>
+        <activity android:name="com.example.Trivial.Arte2"/>
+        <activity android:name="com.example.Trivial.Ayuda"/>
+        <activity android:name="com.example.Trivial.Añadirpregunta"/>
+        <activity android:name="com.example.Trivial.Estadisticas"/>
+        <activity android:name="com.example.Trivial.Literatura"/>
+        <activity android:name="com.example.Trivial.Literatura2"/>
+        <activity android:name="com.example.Trivial.Tecnologia1"/>
+        <activity android:name="com.example.Trivial.Tecnologia2"/>
 
     </application>
 

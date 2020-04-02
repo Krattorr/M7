@@ -1,26 +1,24 @@
-package com.example.primeraaplicacion;
+package com.example.Trivial;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Literatura2 extends AppCompatActivity {
+public class Arte2 extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.literatura2);
-        Button SunTzu = findViewById(R.id.respuesta1correcta);
-        Button Confucio = findViewById(R.id.respuesta2);
-        Button ShiJing = findViewById(R.id.respuesta3);
-        TextView pregunta = findViewById(R.id.text);
-        Button finalizar = findViewById(R.id.exit);
+        setContentView(R.layout.arte2);
+        Button Louvre = findViewById(R.id.respuesta1correcta);
+        Button MueseodelPrado = findViewById(R.id.respuesta2);
+        Button BritishMuseum = findViewById(R.id.respuesta3);
+        TextView pregunta = findViewById(R.id.pregunta);
+        Button finalizar = findViewById(R.id.fin);
         finalizar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,26 +26,27 @@ public class Literatura2 extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        SunTzu.setOnClickListener(new View.OnClickListener() {
+        Louvre.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Juego.acierto ++;
                 System.out.println (Juego.acierto);
             }
         });
-        Confucio.setOnClickListener(new View.OnClickListener() {
+        MueseodelPrado.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Juego.fallido ++;
                 System.out.println (Juego.fallido);
             }
         });
-        ShiJing.setOnClickListener(new View.OnClickListener() {
+        BritishMuseum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Juego.fallido ++;
                 System.out.println (Juego.fallido);
             }
         });
+
     }
 }

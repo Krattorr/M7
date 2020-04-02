@@ -6,12 +6,24 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/seleccionar"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="¿ Que clase de pregunta quieres responder ?"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
     <Button
         android:id="@+id/literatura"
         android:layout_width="match_parent"
         android:layout_height="148dp"
         android:layout_weight="1"
-        android:background="#03A9F4"
+        android:background="#FF8826"
         android:foreground="@drawable/arte" />
 
     <Button
@@ -37,14 +49,4 @@
         android:background="#03A9F4"
         android:foreground="@drawable/deportiva" />
 
-    <TextView
-        android:id="@+id/seleccionar"
-        android:layout_width="match_parent"
-        android:layout_height="111dp"
-        android:layout_weight="1"
-        android:background="#03A9F4"
-        android:gravity="center"
-        android:text="¿ Que clase de pregunta quieres responder ?"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp" />
 </LinearLayout>

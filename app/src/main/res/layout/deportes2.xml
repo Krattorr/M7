@@ -11,54 +11,13 @@
         android:layout_height="145dp"
         android:background="#03A9F4"
         android:text="2020"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/botton3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/botton2"
-        android:layout_width="409dp"
-        android:layout_height="145dp"
-        android:background="#03A9F4"
-        android:text="2022"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botton3" />
-
-    <Button
-        android:id="@+id/botton3"
-        android:layout_width="409dp"
-        android:layout_height="145dp"
-        android:background="#03A9F4"
-        android:text="2021"
+        android:textStyle="italic"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/botton2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/correcto" />
-
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="409dp"
-        android:layout_height="145dp"
-        android:background="#03A9F4"
-        android:text="¿Cuando seran los juegos olimpicos?"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/exit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@+id/botton2" />
-
+        app:layout_constraintTop_toBottomOf="@+id/botton3" />
 
     <Button
         android:id="@+id/exit"
@@ -71,6 +30,52 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botton2" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="409dp"
+        android:layout_height="145dp"
+        android:background="#03A9F4"
+        android:gravity="center"
+
+        android:text="¿Cuando seran los juegos olimpicos?"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/botton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botton3"
+        android:layout_width="409dp"
+        android:layout_height="145dp"
+        android:background="#03A9F4"
+        android:text="2021"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/correcto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <Button
+        android:id="@+id/botton2"
+        android:layout_width="409dp"
+        android:layout_height="145dp"
+        android:background="#03A9F4"
+        android:text="2022"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correcto" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

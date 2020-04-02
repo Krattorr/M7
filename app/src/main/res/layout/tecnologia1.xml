@@ -5,12 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/bottoncorrecto"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="409dp"
         android:layout_height="145dp"
         android:background="#03A9F4"
-        android:text="Charles Babbage"
+        android:gravity="center"
+        android:text="¿Quien creo el primer pc?"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/botton2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,40 +22,41 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/botton2"
-        android:layout_width="409dp"
-        android:layout_height="145dp"
-        android:background="#03A9F4"
-        android:text="Bill Gates"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/botton3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bottoncorrecto" />
-
-    <Button
         android:id="@+id/botton3"
         android:layout_width="409dp"
         android:layout_height="145dp"
         android:background="#03A9F4"
         android:text="Steve Jobs"
+        android:textStyle="italic"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/bottoncorrecto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botton2" />
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/botton2"
         android:layout_width="409dp"
         android:layout_height="145dp"
         android:background="#03A9F4"
-        android:text="¿Quien creo el primer pc?"
-        android:textColor="#FFFFFF"
+        android:text="Bill Gates"
+        android:textStyle="italic"
         android:textSize="30sp"
-        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/botton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/bottoncorrecto"
+        android:layout_width="409dp"
+        android:layout_height="145dp"
+        android:background="#03A9F4"
+        android:text="Charles Babbage"
+        android:textStyle="italic"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -70,5 +74,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/bottoncorrecto" />
 </androidx.constraintlayout.widget.ConstraintLayout>

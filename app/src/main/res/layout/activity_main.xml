@@ -12,10 +12,12 @@
         android:layout_width="148dp"
         android:layout_height="66dp"
         android:bufferType="normal"
+        android:capitalize="none"
         android:scrollbarDefaultDelayBeforeFade="600"
         android:text="TRIVIAL"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
+        android:textStyle="bold|italic"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/jugar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,15 +27,16 @@
 
     <Button
         android:id="@+id/jugar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
         android:background="#FFFFFF"
+        android:text="JUGAR"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/estadisticas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TRIVIAL"
-        android:text="JUGAR" />
+        app:layout_constraintTop_toBottomOf="@+id/TRIVIAL" />
 
     <Button
         android:id="@+id/añadirpregunta"
@@ -41,6 +44,7 @@
         android:layout_height="42dp"
         android:background="#FFFFFF"
         android:text="AÑADIR PREGUNTA"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/ayuda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -49,10 +53,11 @@
 
     <Button
         android:id="@+id/estadisticas"
-        android:layout_width="118dp"
-        android:layout_height="50dp"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
         android:background="#FFFFFF"
         android:text="ESTADISTICAS"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/añadirpregunta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -61,10 +66,11 @@
 
     <Button
         android:id="@+id/ayuda"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
         android:background="#FFFFFF"
         android:text="AYUDA"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -75,6 +81,7 @@
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

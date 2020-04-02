@@ -1,4 +1,4 @@
-package com.example.primeraaplicacion;
+package com.example.Trivial;
 
 import android.content.Context;
 

@@ -4,12 +4,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/pregunta1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="¿Quién escribió 'La Ilíada'?"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
     <Button
         android:id="@+id/respuesta1correcta"
         android:layout_width="match_parent"
         android:layout_height="93dp"
         android:layout_weight="1"
         android:background="#03A9F4"
+        android:textStyle="italic"
         android:text="Homero"
         android:textSize="30sp" />
 
@@ -19,6 +32,7 @@
         android:layout_height="103dp"
         android:layout_weight="1"
         android:background="#03A9F4"
+        android:textStyle="italic"
         android:text="Seneca"
         android:textSize="30sp" />
 
@@ -28,18 +42,8 @@
         android:layout_height="99dp"
         android:layout_weight="1"
         android:background="#03A9F4"
+        android:textStyle="italic"
         android:text="Herodoto"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/pregunta1"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#03A9F4"
-        android:text="¿Quién escribió 'La Ilíada'?"
-        android:textColor="#FFFFFF"
-        android:gravity="center"
         android:textSize="30sp" />
 
     <Button
