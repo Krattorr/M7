@@ -23,30 +23,30 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#03A9F4"
+        android:background="#CDDC39"
         android:text="Louvre"
-        android:textStyle="italic"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/respuesta2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#03A9F4"
-        android:textStyle="italic"
+        android:background="#CDDC39"
         android:text="Mueseo del Prado"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/respuesta3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#03A9F4"
-        android:textStyle="italic"
+        android:background="#CDDC39"
         android:text="British Museum"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/fin"

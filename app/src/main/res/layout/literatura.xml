@@ -21,30 +21,30 @@
         android:layout_width="match_parent"
         android:layout_height="93dp"
         android:layout_weight="1"
-        android:background="#03A9F4"
-        android:textStyle="italic"
+        android:background="#FF8826"
         android:text="Homero"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/respuesta2"
         android:layout_width="match_parent"
         android:layout_height="103dp"
         android:layout_weight="1"
-        android:background="#03A9F4"
-        android:textStyle="italic"
+        android:background="#FF8826"
         android:text="Seneca"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/respuesta3"
         android:layout_width="match_parent"
         android:layout_height="99dp"
         android:layout_weight="1"
-        android:background="#03A9F4"
-        android:textStyle="italic"
+        android:background="#FF8826"
         android:text="Herodoto"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/next"

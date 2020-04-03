@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="171dp"
         android:layout_weight="1"
-        android:background="#03A9F4"
+        android:background="#CDDC39"
         android:foreground="@drawable/dibujo" />
 
     <Button
@@ -39,14 +39,14 @@
         android:layout_width="match_parent"
         android:layout_height="166dp"
         android:layout_weight="1"
-        android:background="#03A9F4"
+        android:background="#7BD80E"
         android:foreground="@drawable/tecnologia" />
 
     <Button
         android:id="@+id/deporte"
         android:layout_width="match_parent"
         android:layout_height="179dp"
-        android:background="#03A9F4"
+        android:background="#8C0C37"
         android:foreground="@drawable/deportiva" />
 
 </LinearLayout>
